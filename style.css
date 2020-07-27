@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+div#app {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+}
+#app ul {
+    text-align: center;
+    list-style-position: inside;
+    border: 5px solid black;
+}
+#app li {
+    padding: 5px;
+}
+a {
+    color: red;
+    padding-left: 7px;
+    font-size: 8pt;
+}
+input {
+    border-radius: 7px solid black;
+    margin-left: 370px;
+    width: 150px;
+    margin-top: 20px;
+}
+ button{
+    border-radius: 7px solid black;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 410px;
+    width: 70px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+ 
